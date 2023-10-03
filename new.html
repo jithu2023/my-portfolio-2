@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+    <style>
+        * {
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: rgb(171, 171, 252);
+        }
+
+        nav {
+            display: flex;
+            width: 84%;
+            margin: auto;
+            padding: 20px 0;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+        }
+
+        nav ul li {
+            margin: 0 20px;
+        }
+
+        nav ul li a {
+            text-decoration: none;
+            font-weight: bold;
+            color: navy;
+            transition: color 0.3s ease;
+        }
+
+        nav ul li a:hover {
+            color: red;
+        }
+
+        .logo {
+            box-shadow: 0 0 10px rgba(0, 0, 255, 0.2);
+            border-radius: 50%;
+        }
+
+        .detail {
+            margin: 6% 8% 0;
+        }
+
+        h1 {
+            font-size: 50px;
+            color: aqua;
+            margin-bottom: 20px;
+        }
+
+        p {
+            color: black;
+            font-weight: bold;
+            line-height: 22px;
+        }
+
+        span {
+            color: navy;
+        }
+
+        .images {
+            width: 80%; /* Adjust as needed */
+            max-width: 600px; /* Limit the maximum width */
+            margin: 0 auto; /* Center the image horizontally */
+        }
+
+        .me {
+            width: 100%; /* Make the image responsive */
+            border-radius: 50px;
+        }
+    </style>
+</head>
+<body>
+    <div class="hero">
+        <nav>
+            <img class="logo" src="logo_jithu-removebg-preview.png" alt="Logo">
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="about.html">ABOUT</a></li>
+                <li><a href="portfolio.html">PORTFOLIO</a></li>
+                <li><a href="letstalk.html">LET'S TALK</a></li>
+            </ul>
+        </nav>
+        <div class="detail">
+            <h1>Hi, I'm Jithumon <span>Jacob</span></h1>
+            <p>I'm a software engineering student specializing in building (and occasionally designing) exceptional digital experiences. Currently, I'm focused on <span>HTML, CSS, JavaScript, Python, C++</span>, etc. Details and work experience.</p>
+        </div>
+        <div class="images">
+            <img src="IMG-20230915-WA0093-02.jpg" class="me" alt="My Image">
+        </div>
+    </div>
+</body>
+</html>
+
+
